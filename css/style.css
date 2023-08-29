@@ -1,0 +1,81 @@
+li {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    /*padding-top: 50px;*/
+
+}
+
+ul {
+    display: flex;
+    margin: 0;
+
+}
+
+.texto {
+    margin-left: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 100px;
+
+}
+
+.imgPrincipal {
+    width: 100%;
+    height: 100px;
+}
+
+.legion {
+    width: 120px;
+    height: 120px;
+    padding: none;
+}
+
+p {
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.img3 {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
+form {
+    font-size: 30px;
+}
+
+.icons {
+    width: 120px;
+    height: 120px;
+}
+
+.video-container {
+    position: relative;
+    width: 80%;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Proporción 16:9 (9 dividido por 16) */
+}
+
+.video-container video {
+    position: absolute;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}

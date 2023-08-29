@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades</title>
+    <link rel="stylesheet" href="../css/inscripciones.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../Recursos/legion.png" alt="Logo" width="40" height=""
+                        class="d-inline-block align-text-top pt-2">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./quienes-somos.html">QUIENES SOMOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./proyecto.html">PROYECTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./actividad.html">ACTIVIDADES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./colaborar.html">COLABORAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-success" aria-current="page"
+                                href="./inscripciones.html">INSCRIPCIONES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="position-relative img-fluid">
+          <img data-aos="fade-left"data-aos-duration="2000" class="img-inscripcion w-100" src="data:image/jpeg;base64,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" alt="Niños">
+        </div>
+        <h1 class="d-flex justify-content-center bg-info bg-gradient p-3">Para comenzar con el proceso de inscripcion deberas completar el siguiente formulario: </h1>
+        <!-- form para inscribirse -->
+        <div class="formulario">
+        <form class="row g-3 needs-validation " >
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese su nombre" required>
+              <div class="valid-feedback">
+               
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su apellido" required>
+              <div class="valid-feedback">
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Email</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">País</label>
+              <input type="text" class="form-control" id="validationCustom03" placeholder="Ingrese su pais" required>
+              <div class="invalid-feedback">
+                Por favor ingrese una ciudad valida.
+              </div>
+            </div>
+            
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Telefono</label>
+              <input type="text" class="form-control" id="validationCustom05" placeholder="Ingrese su numero de telefono" required>
+              <div class="invalid-feedback">
+                Por favor ingrese un numero valido.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Acepto los terminos y condiciones.
+                </label>
+                <div class="invalid-feedback">
+                  Debes aceptar antes de enviar.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar inscripcion</button>
+            </div>
+          </form>
+        </div>
+       
+      </main>
+
+    <footer class="bg-dark-subtle text-emphasis-dark ">
+        <div class="container">
+            <div class="row">
+                <div class="col fs-3">
+                    <p class="bg-success p-2 text-white bg-opacity-75">Escrbinos</p>
+                    <span>Av. Libertador 1555</span><br>
+                    <span>CABA</span><br>
+                    <span>Buenos Aires</span><br>
+                    <span>(+54) 4987-5447</span><br>
+                    <span>ayuda@am.org</span> <br>
+                    <span>Trabajamos por una <span class="fw-bold text-success">gran causa</span></span>
+
+
+
+                </div>
+                <!-- form para noticias -->
+                <div class="col-md-6 ">
+                    <form >
+                        <div class="mb-3 fs-2">
+                            <label class="form-label">Nombre</label>
+                            <input type="name" class="form-control fs-2" placeholder="Ingrese su nombre">
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control fs-3" placeholder="Ingrese su email">
+                        </div>
+                        <div class="mensaje">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control fs-3" placeholder="Ingrese su mensaje aquí"
+                                id="floatingTextarea2" style="height: 100px"></textarea>
+                            <p class="fs-6">Contanos en que podemos ayudarte. 200 caracteres</p>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Quiero recibir noticias vía
+                                email.</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary fs-3">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="inscripciones.js"></script>
+</body>
+
+</html>
+
+</html>
